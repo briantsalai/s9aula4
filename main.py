@@ -10,7 +10,7 @@ repetidor = False
 
 while not repetidor:
  guess = random.randint(palpite1, palpite2)
- print("O número que você pensou é", guess, "?")
+ print("O número que você pensou é ", guess, "?")
 
  resposta = input("Estou certo?: ")
  if resposta == "sim":
